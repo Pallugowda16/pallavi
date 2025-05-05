@@ -8,3 +8,7 @@ body {
   margin: 0;
 }
 
+.login-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px
