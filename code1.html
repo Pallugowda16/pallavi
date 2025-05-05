@@ -16,3 +16,10 @@
     </form>
   </div>
 
+<script>
+    document.getElementById("loginForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      // Dummy login (no validation)
+      window.location.href = "menu.html"; // Redirects to menu page
+    });
+
